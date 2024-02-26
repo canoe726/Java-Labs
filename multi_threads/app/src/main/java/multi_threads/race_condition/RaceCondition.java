@@ -1,4 +1,4 @@
-package main.java.multi_threads.race_condition;
+package multi_threads.race_condition;
 
 public class RaceCondition {
 
@@ -30,3 +30,10 @@ public class RaceCondition {
     t2.start();
   }
 }
+/**
+ * TODO Example
+ * 
+    RaceCondition raceCondition = new RaceCondition();
+    raceCondition.startTwoThreads();
+    System.out.println(raceCondition.getShardRecource());
+ */

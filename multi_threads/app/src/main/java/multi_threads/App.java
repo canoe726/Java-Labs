@@ -3,13 +3,12 @@
  */
 package multi_threads;
 
-import main.java.multi_threads.race_condition.RaceCondition;
+import multi_threads.explict_lock.ExplictLock;
 
 public class App {
 
   public static void main(String[] args) {
-    RaceCondition raceCondition = new RaceCondition();
-    raceCondition.startTwoThreads();
-    System.out.println(raceCondition.getShardRecource());
+    ExplictLock test = new ExplictLock();
+    test.startThread();
   }
 }
