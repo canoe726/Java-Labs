@@ -2,7 +2,7 @@ package multi_threads.intrinsic_lock;
 
 public class Synchronized {
 
-  public void startThread() {
+  public void startThreads() {
     Counter counter = new Counter();
 
     Thread t1 = new Thread(counter, "Thread1");

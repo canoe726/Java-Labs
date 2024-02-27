@@ -1,4 +1,4 @@
-package multi_threads.explict_lock;
+package multi_threads.explicit_lock;
 
 import java.util.concurrent.locks.ReentrantLock;
 

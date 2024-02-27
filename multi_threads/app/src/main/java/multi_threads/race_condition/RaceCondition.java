@@ -8,7 +8,7 @@ public class RaceCondition {
     return sharedRecource;
   }
 
-  public void startTwoThreads() {
+  public void startThreads() {
     Thread t1 = new Thread(
       new Runnable() {
         @Override
@@ -30,10 +30,3 @@ public class RaceCondition {
     t2.start();
   }
 }
-/**
- * TODO Example
- * 
-    RaceCondition raceCondition = new RaceCondition();
-    raceCondition.startTwoThreads();
-    System.out.println(raceCondition.getShardRecource());
- */

@@ -32,11 +32,11 @@ public class Counter implements Runnable {
     }
   }
 
-  synchronized void increase() {
+  void increase() {
     sharedRecource += 1;
   }
 
-  synchronized void decrease() {
+  void decrease() {
     sharedRecource -= 1;
   }
 }

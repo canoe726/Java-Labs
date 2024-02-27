@@ -1,8 +1,8 @@
-package multi_threads.explict_lock;
+package multi_threads.explicit_lock;
 
-public class ExplictLock {
+public class ExplicitLock {
 
-  public void startThread() {
+  public void startThreads() {
     Counter counter = new Counter();
 
     Thread t1 = new Thread(counter, "Thread1");
