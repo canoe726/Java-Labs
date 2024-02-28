@@ -2,7 +2,7 @@ package multi_threads.explicit_lock;
 
 import java.util.concurrent.locks.ReentrantLock;
 
-public class Counter implements Runnable {
+public class LockCounter implements Runnable {
 
   int sharedRecource = 0;
   private ReentrantLock mLock = new ReentrantLock();

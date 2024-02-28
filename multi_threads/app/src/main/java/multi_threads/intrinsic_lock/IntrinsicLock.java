@@ -1,6 +1,6 @@
 package multi_threads.intrinsic_lock;
 
-public class Synchronized {
+public class IntrinsicLock {
 
   public void startThreads() {
     Counter counter = new Counter();

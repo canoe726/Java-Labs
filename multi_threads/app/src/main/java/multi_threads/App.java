@@ -1,11 +1,11 @@
 package multi_threads;
 
-import multi_threads.intrinsic_lock.Synchronized;
+import multi_threads.explicit_lock.ExplicitLock;
 
 public class App {
 
   public static void main(String[] args) {
-    Synchronized test = new Synchronized();
-    test.startThreads();
+    ExplicitLock test = new ExplicitLock();
+    test.startWriteThreads();
   }
 }
