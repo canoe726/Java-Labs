@@ -1,11 +1,11 @@
 package multi_threads;
 
-import multi_threads.customer_procedure.ConsumerProducerMain;
+import multi_threads.array_thread.BigArrayReadThread;
 
 public class App {
 
   public static void main(String[] args) {
-    ConsumerProducerMain test = new ConsumerProducerMain();
-    test.startThreads();
+    BigArrayReadThread test = new BigArrayReadThread();
+    test.findIndexByLoop(-99);
   }
 }
