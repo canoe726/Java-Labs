@@ -1,11 +1,11 @@
 package multi_threads;
 
-import multi_threads.array_thread.BigArrayReadThread;
+import concurrent_model.thread_lock.HelloWorld;
 
 public class App {
 
-  public static void main(String[] args) {
-    BigArrayReadThread test = new BigArrayReadThread();
-    test.findIndexByLoop(-99);
+  public static void main(String[] args) throws InterruptedException {
+    HelloWorld helloWorld = new HelloWorld();
+    helloWorld.helloWorld();
   }
 }
